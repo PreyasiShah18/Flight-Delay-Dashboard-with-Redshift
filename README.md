@@ -4,7 +4,7 @@
 Developed a web-based dashboard to visualize flight delay data using Flask and Amazon Redshift. The dashboard displays key metrics such as average delays by airline, showcasing the integration of a large dataset and web development skills. This project involves data preprocessing, API development, and frontend implementation using HTML/CSS/JavaScript, along with version control using Git.
 
 ### Project Summary:
-**Objective:** Create a simple, interactive dashboard to visualize flight delay data from the "Airline On-Time Performance" dataset, stored in Amazon Redshift.
+**Objective:** Create an interactive dashboard to visualize flight delay data from the "Airline On-Time Performance" dataset, stored in Amazon Redshift.
 
 **Technologies Used:**
 - **Frontend:** HTML/CSS/JavaScript
