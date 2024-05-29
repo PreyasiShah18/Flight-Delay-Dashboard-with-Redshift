@@ -4,7 +4,7 @@ import pandas as pd
 import psycopg2
 
 # Load the dataset
-df = pd.read_csv('C:\Users\hello\Downloads\airline.csv.shuffle')
+df = pd.read_csv('C:\Users\hello\OneDrive\Flight Dashboard\airline.csv.shuffle')
 
 # Select relevant columns and preprocess
 df = df[['AIRLINE', 'ORIGIN_AIRPORT', 'DESTINATION_AIRPORT', 'DEPARTURE_DELAY', 'ARRIVAL_DELAY', 'SCHEDULED_DEPARTURE', 'SCHEDULED_ARRIVAL']]
@@ -19,7 +19,7 @@ average_delays = df.groupby('AIRLINE').agg({
 dbname = 'dev'
 user = 'admin'
 password = 'Flightdashboard2'
-host = 'my-flight-redshift-cluster.ctbvnucicxel.us-east-2.redshift.amazonaws.com:5439/dev'
+host = 'my-flight-redshift-cluster.ctbvnucicxel.us-east-2.redshift.amazonaws.com'
 port = '5439'
 
 # Connect to Redshift and store the data
