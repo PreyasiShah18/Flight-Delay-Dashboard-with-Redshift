@@ -20,3 +20,7 @@ Developed a web-based dashboard to visualize flight delay data using Flask and A
 - Git for version control and project management.
 
 This project demonstrates skills in data processing, web development, database management, and version control.
+
+More details here: https://docs.google.com/document/d/1nmJRmJXwyt_S51gTuSNH4s7ynQ3JoZbvf5S1UexobTE/edit?usp=sharing
+
+
