@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Delay Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <h1>Flight Delay Dashboard</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Airline</th>
+                <th>Average Departure Delay</th>
+                <th>Average Arrival Delay</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for delay in delays %}
+            <tr>
+                <td>{{ delay[0] }}</td>
+                <td>{{ delay[1] }}</td>
+                <td>{{ delay[2] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
